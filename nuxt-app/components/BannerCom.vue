@@ -5,7 +5,7 @@
         <h2>Reinventing</h2>
         <h2>packaging</h2>
         <p>Introducing the most sustainable material category for packaging on the market,<br> with the lowest costs and carbon footprint to date</p>
-        <a href="#">
+        <a class="readMore" href="#">
             <p>Read more</p>
             <img src="../Assets/icons/CTA-arrow.svg" alt="">
         </a>
@@ -48,18 +48,6 @@ export default {
     h2:last-of-type{
         color:#FF6F3D;
         margin-top:-32px;
-    }
-    a{
-        display: flex;
-        gap: 8px;
-        align-items: center;
-        margin-top: 56px;
-        text-transform: uppercase;
-        text-decoration: none;
-        p{
-        font-size: 16px;
-        font-weight: 900;
-        }   
     }
    }
    .image{
