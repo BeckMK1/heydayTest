@@ -1,5 +1,29 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+<div class="container">
+  <NuxtLayout>
+    <NuxtPage class="pages"/>
+  </NuxtLayout>
+</div>
 </template>
+
+<script>
+export default {
+}
+</script>
+
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    color:#404041;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container{
+    background-color:#FBF9F4;
+}
+.pages{
+    
+    max-width: 1542px;
+    margin:auto;
+}
+</style>
