@@ -10,6 +10,8 @@
         <BarCom title="Less material-user" amountText="50%" amount="width:50%"></BarCom>
       </div>
     </div>
+    <FullVideoCom></FullVideoCom>
+    <FullImage image="../Assets/gif-placeholder.png"></FullImage>
   </div>
 </template>
 

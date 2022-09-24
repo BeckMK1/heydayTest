@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="{{image}}" alt="">
+    <img :src="image" alt="">
   </div>
 </template>
 
@@ -12,6 +12,11 @@ props:{
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 210px 0;
+}
 </style>
