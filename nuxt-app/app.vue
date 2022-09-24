@@ -30,7 +30,6 @@ export default {
         display: flex;
         gap: 8px;
         align-items: center;
-        margin-top: 56px;
         text-transform: uppercase;
         text-decoration: none;
         p{

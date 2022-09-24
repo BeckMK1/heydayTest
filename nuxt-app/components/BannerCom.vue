@@ -82,5 +82,8 @@ export default {
         }
     }
    }
+   .readMore{
+    margin-top: 56px;
+   }
 </style>
 
