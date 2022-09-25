@@ -11,7 +11,7 @@
         </a>
     </div>
     <div class="image">
-        <img src="../Assets/Skærmbillede 2022-09-20 145806.png" alt="">
+        <img src="../Assets/banner.png" alt="">
     </div>
     </div>
     <div class="icons">
