@@ -84,5 +84,44 @@ export default {
    .readMore{
     margin-top: 56px;
    }
+   .readMore:hover{
+    img{
+        transition:500ms ease;
+       transform: scaleX(1.2);
+    }
+   }
+   @media(max-width:1024px){
+    .banner{
+    .image{
+        display: none;
+    }
+    .text{
+        margin-left: 32px;
+        h2{
+            font-size: 60px;
+        }
+    }
+   }
+}
+@media(max-width:784px){
+    .banner{
+    .text{
+        h2{
+            font-size: 40px;
+            margin-bottom: 18px;
+        }
+    }
+   }
+}
+@media(max-width:340px){
+    .banner{
+    .text{
+        h2{
+            font-size: 20px;
+            margin-bottom: 32px;
+        }
+    }
+   }
+}
 </style>
 

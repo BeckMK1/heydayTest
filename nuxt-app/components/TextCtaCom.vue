@@ -36,10 +36,18 @@ size:String
     font-size: 16px;
   }
   }
+  .readMore:hover{
+    img{
+      transition:500ms ease;
+       transform: scaleX(1.2);
+      }
+
+  }
 }
 @media(max-width:1024px){
   .half{
     margin:0;
+    width: 80%;
     a p{
       margin: 0;
       width: fit-content;

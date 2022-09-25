@@ -47,8 +47,8 @@
   </div>
   <div class="sectionWidth">
     <div class="flexConteinerBigCta pageContainer">
-    <CtaBigCom addedborder="border" icon="../Assets/icons/config_1.svg" title="Sustainability" content="How much can your country save with refour?"></CtaBigCom>
-    <CtaBigCom icon="../Assets/icons/config_2.svg" title="Material" content="How much can your company save with refour?"></CtaBigCom>
+    <CtaBigCom addedborder="border" icon="../Assets/icons/config_1.svg" title="Sustainability"></CtaBigCom>
+    <CtaBigCom icon="../Assets/icons/config_2.svg" title="Material"></CtaBigCom>
     </div>
   </div>
   <CtaContactCom title="Do you have any questions?" content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy" Cta="Contact us"></CtaContactCom>
@@ -58,7 +58,12 @@
 <style lang="scss">
   .textHeighlight {
     display: flex;
-    
+    justify-content: center;
+    h2:nth-child(2){
+      color:#FF6F3D;
+    margin-right: 4px;
+    margin-left: 4px;
+    }
     p:first-child{
     color:#FF6F3D;
     margin-right: 4px;
@@ -194,7 +199,7 @@ p{
       flex-direction: column;
       align-items: center;
       .barContainer{
-      width: 50%;
+      width: 80%;
       
       }
     }

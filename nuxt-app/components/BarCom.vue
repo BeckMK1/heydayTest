@@ -53,7 +53,14 @@ props:{
 @media(max-width:1024px){
   .half{
     margin-left:auto;
-    margin-right: 35%;
+    width: 80%;
+    margin-right: 8%;
+    .title{
+      width: 100%;
+    }
+    .bar{
+    width: 100%;
+  }
   }
 }
 </style>

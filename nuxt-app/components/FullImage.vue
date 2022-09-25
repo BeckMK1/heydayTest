@@ -20,4 +20,11 @@ div{
   margin: 0 auto;
     padding-top: 172px;
 }
+@media(max-width:1024px){
+  div{
+    img{
+      width: 50%;
+    }
+  }
+}
 </style>

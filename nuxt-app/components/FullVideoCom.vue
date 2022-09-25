@@ -43,10 +43,12 @@ export default {
 }
 @media(max-width:1024px){
   .videoContainer{
-    height: 520px;
+    height: 100%;
+    padding:15px 0;
     width: 90vw;
     .mainImage{
         width: 85vw;
+        border-radius: 43px;
       }
   }
 }

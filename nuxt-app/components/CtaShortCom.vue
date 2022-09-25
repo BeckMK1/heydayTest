@@ -53,6 +53,10 @@ props:{
 
   }
 }
+.ctaSize:hover{
+  transform: scale(1.05);
+  transition: 500ms ease;
+}
 @media(max-width:1024px){
   .ctaSize{
     width: 50%;

@@ -125,4 +125,28 @@ p,a{
         }
        } 
     }
+    @media(max-width:1024px){
+        .mainFooter{
+        flex-direction: column;
+        h3{
+            margin-bottom: 18px;
+        }
+        a{
+            margin-left: 18px;
+        }
+        .logo{
+            width: 200px;
+        }
+        .footCol, .contact{
+            margin-left: 32px;
+            margin-top: 12px;
+        }
+        }
+        .subFooter{
+            a{
+            margin-left: 32px;
+        } 
+        }
+    }
+    
 </style>
