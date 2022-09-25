@@ -21,6 +21,8 @@ props:{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 141px;
+  margin-top:152px ;
   h2{
     margin-bottom: 24px;
     text-transform: uppercase;

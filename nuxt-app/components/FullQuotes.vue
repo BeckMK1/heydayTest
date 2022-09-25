@@ -25,7 +25,6 @@ props:{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 164px 0;
   img{
     margin-bottom: 32px;
   }

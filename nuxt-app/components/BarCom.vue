@@ -50,4 +50,10 @@ props:{
     }
   }
 }
+@media(max-width:1024px){
+  .half{
+    margin-left:auto;
+    margin-right: 35%;
+  }
+}
 </style>

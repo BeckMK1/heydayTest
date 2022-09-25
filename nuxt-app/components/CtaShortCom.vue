@@ -32,7 +32,7 @@ props:{
     margin-bottom: -4px;
   }
   .contentContainer{
-  border: dashed #70707033 1.5px;
+  border: dashed #70707033 2px;
   border-radius:0 0 20px 20px;
   }
   .title{
@@ -49,7 +49,14 @@ props:{
   p{
     width: 80%;
     margin: 0 auto;
+    padding-bottom:46px ;
 
   }
+}
+@media(max-width:1024px){
+  .ctaSize{
+    width: 50%;
+  }
+
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="bigCtaContainer">
+  <div class="bigCtaContainer" :class="addedborder">
     <div class="iconContaier">
         <img :src="icon" alt="">
         <p>{{title}}</p>
@@ -14,7 +14,9 @@ export default {
 props:{
     icon:String,
     content:String,
-    title:String
+    title:String,
+    addedborder:String
+
 }
 }
 </script>
@@ -24,7 +26,8 @@ props:{
   display: flex;
   flex-direction: column;
   justify-content:center;
-  margin-bottom: 161px;
+  height: 659px;
+  width: 50%;
   button{
     width: 176px;
     height: 62px;
@@ -39,11 +42,20 @@ props:{
     font-weight: 600;
 
 }
+
+h2{
+  text-align: center;
+}
 }
 .iconContaier{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap:31px
+}
+@media(max-width:1024px){
+  .bigCtaContainer{
+    height: 400px;
+  }
 }
 </style>

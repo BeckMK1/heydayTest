@@ -37,4 +37,17 @@ size:String
   }
   }
 }
+@media(max-width:1024px){
+  .half{
+    margin:0;
+    a p{
+      margin: 0;
+      width: fit-content;
+    }
+    h3,p,a{
+      width: 75%;
+      margin:0 auto;
+    }
+  }
+}
 </style>

@@ -1,9 +1,9 @@
 <template>
-<div class="videoContainer">
+<div class="videoContainer pageContainer">
   <div class="video">
-    <img  src="../Assets/video-placeholder.png">
+    <img class="mainImage"  src="../Assets/video-placeholder.png">
     <div>
-      <img  src="../Assets/icons/icon-play.svg">
+      <img src="../Assets/icons/icon-play.svg">
     </div>
   </div>
   
@@ -19,7 +19,6 @@ export default {
 <style lang="scss" scoped>
 .videoContainer{
   height: 884px;
-  margin-top: 149px;
   border: 2px dashed #FF6F3D;
   border-radius: 43px;
   display: flex;
@@ -40,6 +39,15 @@ export default {
       border-radius: 100%;
       transform: translate(-50%, -50%);
     }
+  }
+}
+@media(max-width:1024px){
+  .videoContainer{
+    height: 520px;
+    width: 90vw;
+    .mainImage{
+        width: 85vw;
+      }
   }
 }
 </style>

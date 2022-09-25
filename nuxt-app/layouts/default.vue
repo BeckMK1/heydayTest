@@ -2,6 +2,7 @@
     <div>
         <HeaderCom></HeaderCom>
         <slot class="container"/>
+        <FooterCom></FooterCom>
     </div>
 </template>
 

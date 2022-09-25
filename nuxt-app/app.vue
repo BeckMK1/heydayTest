@@ -1,9 +1,7 @@
 <template>
 <div class="container">
   <NuxtLayout>
-    <div class="pages">
-    <NuxtPage />
-  </div>
+    <NuxtPage/>
   </NuxtLayout>
 </div>
 </template>
@@ -23,11 +21,12 @@ export default {
 .container{
     background-color:#FBF9F4;
 }
-.pages{
+.pageContainer{
     
     max-width: 1542px;
     margin:auto;
 }
+
 .readMore{
         display: flex;
         gap: 8px;

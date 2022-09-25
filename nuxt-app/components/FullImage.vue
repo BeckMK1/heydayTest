@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pageContainer">
     <img :src="image" alt="">
   </div>
 </template>
@@ -17,6 +17,7 @@ div{
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 210px 0;
+  margin: 0 auto;
+    padding-top: 172px;
 }
 </style>

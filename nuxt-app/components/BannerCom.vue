@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="banner">
+    <div class="banner pageContainer">
     <div class="text">
         <h2>Reinventing</h2>
         <h2>packaging</h2>
@@ -18,7 +18,6 @@
     <div>
         <img src="../Assets/icons/arrow-down.svg" alt="">
     </div>
-    <img src="../Assets/icons/icon-earth.svg" alt="">
     </div>
   </div>
 </template>
